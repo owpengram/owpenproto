@@ -1305,6 +1305,7 @@ enum TLConstructor {
   CRC32_pageRelatedArticle = -1282352120;                           // b390dc08
   CRC32_page = -1738178803;                                         // 98657f0d
   CRC32_help_supportName = -1945767479;                             // 8c05f1c9
+  CRC32_help_serverInfo = 2882402117;                               // abc12345
   CRC32_help_userInfoEmpty = -206688531;                            // f3ae2eed
   CRC32_help_userInfo = 32192344;                                   // 1eb3758
   CRC32_pollAnswer_ff16e2ca = -15277366;                            // ff16e2ca
@@ -2661,6 +2662,7 @@ enum TLConstructor {
   CRC32_upload_getFileHashes_c7025931 = -956147407;                  // c7025931
   CRC32_help_getConfig = -990308245;                                 // c4f9186b
   CRC32_help_getNearestDc = 531836966;                               // 1fb33026
+  CRC32_help_getServerInfo = 531836967;                              // 1fb33027
   CRC32_help_getAppUpdate = 1378703997;                              // 522d5a7d
   CRC32_help_getInviteText = 1295590211;                             // 4d392343
   CRC32_help_getSupport = -1663104819;                               // 9cdf08cd

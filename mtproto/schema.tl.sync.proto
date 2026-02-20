@@ -15482,6 +15482,22 @@ message TL_help_supportName {
   help_SupportName data2 = 1;
 }
 
+// help_ServerInfo <--
+//  + TL_help_serverInfo
+//
+message help_ServerInfo {
+  string predicate_name = 1;
+  TLConstructor constructor = 2;
+  string server_name = 3;
+  string server_version = 4;
+  string server_type = 5;
+}
+
+// TL_help_serverInfo
+message TL_help_serverInfo {
+  help_ServerInfo data2 = 1;
+}
+
 // help_TermsOfService <--
 //  + TL_help_termsOfService
 //

@@ -3071,6 +3071,10 @@ message TL_help_getSupport {
   TLConstructor constructor = 1;
 }
 
+message TL_help_getServerInfo {
+  TLConstructor constructor = 1;
+}
+
 message TL_help_setBotUpdatesStatus {
   TLConstructor constructor = 1;
   int32 pending_updates_count = 3;
@@ -5972,6 +5976,7 @@ service RPCConfiguration {
   rpc help_getAppUpdate(TL_help_getAppUpdate) returns (help_AppUpdate) {}
   rpc help_getInviteText(TL_help_getInviteText) returns (help_InviteText) {}
   rpc help_getSupport(TL_help_getSupport) returns (help_Support) {}
+  rpc help_getServerInfo(TL_help_getServerInfo) returns (help_ServerInfo) {}
   rpc help_getAppConfig61E3F854(TL_help_getAppConfig61E3F854)
       returns (help_AppConfig) {}
   rpc help_getSupportName(TL_help_getSupportName) returns (help_SupportName) {}
