@@ -1,4 +1,4 @@
-module github.com/teamgram/proto
+module github.com/owpengram/owpenproto
 
 go 1.21
 
