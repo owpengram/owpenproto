@@ -1305,7 +1305,7 @@ enum TLConstructor {
   CRC32_pageRelatedArticle = -1282352120;                           // b390dc08
   CRC32_page = -1738178803;                                         // 98657f0d
   CRC32_help_supportName = -1945767479;                             // 8c05f1c9
-  CRC32_help_serverInfo = 2882402117;                               // abc12345
+CRC32_help_serverInfo = -1412565179;                                // abc12345
   CRC32_help_userInfoEmpty = -206688531;                            // f3ae2eed
   CRC32_help_userInfo = 32192344;                                   // 1eb3758
   CRC32_pollAnswer_ff16e2ca = -15277366;                            // ff16e2ca
