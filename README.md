@@ -1,3 +1,3 @@
-# proto
+# owpenproto
 
-MTProto protocol libraries, used by teamgram.
+MTProto protocol libraries, used by owpengram. (currently unused, still i dev)
